@@ -1,3 +1,108 @@
+/* Universal Selector */
 *{
     box-sizing: border-box;
+    margin: 0px;    
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    position: relative;
+    text-align: center;       
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.row {
+	width: 100%;
+}
+.innerrow {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+section{            
+    background-color: rgb(234, 204, 238);
+    border: 1px solid black;
+    overflow: auto;    
+}
+.divChick{    
+    background-color: palevioletred;    
+    text-align: right;
+    border: 1px solid black;        
+    position: relative;    
+    float: right;
+    font-size: 140%;      
+}
+.divBeef{    
+    background-color: red;    
+    color: white;
+    text-align: right;
+    border: 1px solid black;    
+    position: relative;
+    float: right;   
+    font-size: 140%;     
+}
+.divSushi{    
+    background-color: burlywood;    
+    text-align: right;
+    border: 1px solid black;    
+    position: relative;
+    float: right;
+    font-size: 140%;        
+}
+
+.pChick{    
+    clear: right;
+    margin: 12px;
+    padding: 10px;
+    overflow: auto;
+}
+.pBeef{
+    clear: right;
+    margin: 12px;
+    padding: 10px;
+    overflow: auto;
+}
+.pSushi{
+    clear: right;
+    margin: 12px;
+    padding: 10px;
+    overflow: auto;
+}
+.row{
+    width: 100%;    
+    overflow: auto;
+}
+
+
+/**********  desktop version of the site **********/
+/*Means if device is 992px or wider then these below style will applied*/
+@media (min-width: 992px) {
+    .col-deskver-4{
+        float: left;        
+        width: 33.33%;                
+    }                                
+}
+/**********  tablet version of the site **********/
+/*Means (between 768px and 991px, inclusively) then these below style will applied*/
+@media (min-width: 768px) and (max-width:991px) {
+    .col-tabver-6{
+        float: left;        
+        width: 50%;   
+    }
+    .col-tabver-12{
+        float: left;        
+        width: 100%;   
+    }                                 
+}
+/**********  mobile version of the site **********/
+/*Means (equal to or less than 767px) then these below style will applied*/
+@media (max-width: 767px){
+    .col-mobver-12{
+        float: left;        
+        width: 100%;   
+    }                                
 }
