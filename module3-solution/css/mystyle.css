@@ -1,0 +1,86 @@
+body{
+    font-size: 15px;
+    color: #fff;
+    background-color: #D3B2F3;
+    font-family: 'Satisfy', cursive;
+}
+#header-nav{
+    background-color: #BA86EC;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    margin-left: 0;
+}
+ 
+.navbar{
+    min-height: 65px;
+}
+.navbar-brand h1 { /* Food LLC */
+    font-family: 'Satisfy', cursive;
+    color: white;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(231, 85, 219);
+    margin-top: 0;
+    margin-bottom: 0;    
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+
+#nav-list {
+    margin-top: 10px;
+    background-color: #B882EB;
+}
+#nav-list a {
+color: #4E1584;
+text-align: center;
+}
+#nav-list a:hover {
+background: #E7E7E7;
+}
+#nav-list a span {
+font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+#ourStart-section {
+    background-color: #B480E6;
+    box-shadow: 0 0 50px #8B15EA;
+    padding: 30px;
+    margin:2%;
+}
+
+#ourStart-section h3 {
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.text-center {
+    text-align: center;
+}
+.menu-item-title {
+    font-size: 2.7em;    
+    font-style: italic;
+}
+.menu-item-details {
+    font-size: 1.7em;    
+}
+
+h2, #our-menu-title{
+    font-size: 3.7em;    
+}
